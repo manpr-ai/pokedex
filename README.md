@@ -2,11 +2,46 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+
 
 In the project directory, you can run:
 
 ### `npm start`
+
+If `npm start` doesn't work, follow these steps
+
+### Available Scripts
+
+Install react-scripts:
+Ensure that you have react-scripts installed in your project. You can install it using the following command:
+
+### `npm install react-scripts --save`
+
+Check Node.js and npm:
+Make sure you have Node.js and npm installed on your machine. You can check their installation by using the following commands:
+
+### `node -v 
+npm -v`
+
+If Node.js or npm is not installed, you will need to install them before proceeding.
+
+Install Dependencies:
+After confirming your Node.js and npm installation, make sure to install all necessary dependencies for your project by running the following command:
+
+### `npm install`
+
+Check package.json File:
+Open your project's package.json file and ensure that react-scripts is listed under dependencies. If it is not, you can manually add it and run npm install again.
+
+Verify Execution Path:
+Ensure that you are in the correct directory where your project's package.json file is located before running npm start.
+
+### `npm start`
+
+
+
+
+
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
